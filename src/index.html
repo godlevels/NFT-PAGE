@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>NFT Landing Page</title>
+</head>
+<body>
+    <section class="bg-slate-900 px-8 pt-4 pb-11">
+        <div class="border-b border-gray-300 pb-2 mb-11 md:flex md:justify-around">
+            <div class="flex justify-between items-center"> <!--the logo-->
+                <div class="flex">
+                    <div class="bg-blue-800 w-4 h-4 rounded-sm mt-2 mr-2"></div>
+                    <h2 class="text-gray-300 text-base mt-1">Airhub</h2>
+                </div>
+                <div class="px-4 cursor-pointer md:hidden" id="burger"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 pt-3 text-gray-300 hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"/></svg>
+                </div>
+            </div>
+
+            <div class="hidden md:flex md:justify-between" id="menu"> <!--the navbar-->
+                <ul class="text-gray-300 capitalize text-sm md:flex md:space-x-4 md:items-center">
+                    <li class="w-12 pt-3 mb-3 hover:text-white hover:border-b-2 border-white hover:duration-300 ease-in-out md:pt-5"><a href="#">explore</a></li>
+                    <li class="w-14 hover:text-white hover:border-b-2 border-white hover:duration-300 ease-in-out md:pt-3"><a href="#">creators</a></li>
+                    <li class="w-20 pt-3 hover:text-white hover:border-b-2 border-white hover:duration-300 ease-in-out"><a href="#">community</a></li>
+                    <li class="w-20 pt-3 hover:text-white hover:border-b-2 border-white hover:duration-300 ease-in-out"><a href="#">collections</a></li>
+                    <li class="w-8 pt-3 hover:text-white hover:border-b-2 border-white hover:duration-300 ease-in-out"><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+
+            <div class="my-5"> <!--wallet button-->
+                <a class="text-white/75 text-xs font-bold capitalize px-4 py-2 border-2 border-blue-900 rounded-md hover:bg-blue-700" href="#">connect wallet</a>
+            </div>
+
+        </div>
+
+        <div class="flex justify-between gap-x-11 md:flex md:justify-between md:px-20"> <!--info area-->
+            <div class="text-white"> <!--left-->
+                <h2 class="text-2xl font-bold md:text-4xl">Discover, Buy <br> and Sell Amazing <span class="text-blue-800">NFTs!</span></h2>
+                <p class="text-xs md:text-base">Get all top NFt collections from the best creators all in one place. <br> Airhub is the fastest Nft marketplace to discover, buy and sell NFT.</p>
+                <div class="capitalize text-xs font-semibold pt-4 flex">
+                    <a href="#" class="bg-blue-800 border border-blue-800 px-5 py-1 mr-2 md:px-7 md:py-3 md:mr-4 rounded-sm hover:bg-slate-900 transition duration-300 hover:text-white/70">explore</a>
+                    <a href="#" class="bg-transparent border border-blue-800 px-5 py-1 md:px-7 md:py-3  rounded-sm hover:bg-blue-800 transition duration-300 hover:text-white/70">create</a>
+                </div>
+                <div class="flex justify-between mt-5 md:flex md:justify-start md:gap-x-10">
+                    <div>
+                        <h1 class="text-md font-bold md:text-lg">32k+</h1>
+                        <p class="text-xs text-gray-500">Artworks</p>
+                    </div>
+                    <div>
+                        <h1 class="text-md font-bold md:text-lg">20k+</h1>
+                        <p class="text-xs text-gray-500">Auctions</p>
+                    </div>
+                    <div>
+                        <h1 class="text-md font-bold md:text-lg">12k+</h1>
+                        <p class="text-xs text-gray-500">Creators</p>
+                    </div>
+                </div>
+            </div>
+
+            <div> <!--right-->
+                <div class="border border-slate-800 h-80 w-44 rounded-md md:w-64 md:h-96">
+                    <div class="flex py-2 pb-0">
+                        <img class="w-5 h-5 mt-1 ml-2 md:w-11 md:h-11" src="./img/people.png" alt="">
+                        <div class="flex justify-center gap-x-10 px-1 md:gap-x-16">
+                            <div class="md:mt-2">
+                                <h1 class="text-white capitalize text-xs md:text-sm">crying art</h1>
+                                <h3 class="text-slate-600 text-xs font-semibold md:text-sm">by @wzard</h3>
+                            </div>
+                            <div class="flex text-blue-800 text-xs gap-x-1 pr-2 md:text-base md:mt-2">
+                                <i class="uil uil-heart"></i>
+                                <h2>92</h2>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="mt-2">
+                        <img class="rounded-sm h-40 w-36 ml-3 md:w-56 md:h-56" src="./img/1.jpg" alt="">
+                   </div>
+    
+                   <div class="flex justify-between items-center px-4 py-3 gap-x-4 md:py-1">
+                        <div class="flex flex-col text-white">
+                            <h1 class="text-gray-300 text-xs capitalize">current</h1>
+                            <h2 class="text-xs font-bold">4.89 ETH</h2>
+                        </div>
+                        <div>
+                            <h1 class="text-gray-300 text-xs capitalize">ends in</h1>
+                            <h2 class="text-xs text-gray-300 font-bold">19hrs 42min</h2>
+                        </div>
+                    </div>
+    
+                    <div class="flex justify-evenly gap-x-3 pt-2 md:flex md:justify-between md:px-5">
+                        <a href="#" class="bg-transparent border border-blue-800 px-2 pt-1 pb-2 rounded-sm text-white text-xs hover:bg-blue-800 transition duration-300 hover:text-white/70">Place a bid</a>
+                        <a href="#" class="bg-transparent border border-blue-800 px-3 pt-1 pb-2 rounded-sm text-white text-xs hover:bg-blue-800 transition duration-300 hover:text-white/70">View</a>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+
+        
+        <div class="mt-12 grid grid-cols-2 gap-x-14 gap-y-6 w-fit md:grid md:grid-cols-3 md:mt-32 lg:flex lg:justify-between lg:gap-x-20 lg:px-16"> <!--last section-->
+            <div class="border border-slate-800 h-80 w-44 rounded-md">
+                <div class="flex py-2 pb-0">
+                    <img class="w-5 h-5 mt-1 ml-2" src="./img/people.png" alt="">
+                    <div class="flex justify-center gap-10 px-1">
+                        <div>
+                            <h1 class="text-white capitalize text-xs">neon art</h1>
+                            <h3 class="text-slate-600 text-xs font-semibold">by @wzard</h3>
+                        </div>
+                        <div class="flex text-blue-800 text-xs gap-x-1 pr-2">
+                            <i class="uil uil-heart"></i>
+                            <h2>92</h2>
+                        </div>
+                    </div>
+                </div>
+               <div class="mt-2">
+                    <img class="rounded-sm h-40 w-36 ml-3" src="../src/img/2.jpg" alt="">
+               </div>
+
+               <div class="flex justify-between items-center px-4 py-3 gap-x-4">
+                    <div class="flex flex-col text-white">
+                        <h1 class="text-gray-300 text-xs capitalize">current</h1>
+                        <h2 class="text-xs font-bold">4.89 ETH</h2>
+                    </div>
+                    <div>
+                        <h1 class="text-gray-300 text-xs capitalize">ends in</h1>
+                        <h2 class="text-xs text-gray-300 font-bold">19hrs 42min</h2>
+                    </div>
+                </div>
+
+                <div class="flex justify-evenly gap-x-3 pt-2">
+                    <a href="#" class="bg-transparent border border-blue-800 px-2 pt-1 pb-2 rounded-sm text-white text-xs hover:bg-blue-800 transition duration-300 hover:text-white/70">Place a bid</a>
+                    <a href="#" class="bg-transparent border border-blue-800 px-3 pt-1 pb-2 rounded-sm text-white text-xs hover:bg-blue-800 transition duration-300 hover:text-white/70">View</a>
+                </div>
+            </div>
+            
+            <div class="border border-slate-800 h-80 w-44 rounded-md">
+                <div class="flex py-2 pb-0">
+                    <img class="w-5 h-5 mt-1 ml-2" src="./img/people.png" alt="">
+                    <div class="flex justify-center gap-10 px-1">
+                        <div>
+                            <h1 class="text-white capitalize text-xs">visual art</h1>
+                            <h3 class="text-slate-600 text-xs font-semibold">by @wzard</h3>
+                        </div>
+                        <div class="flex text-blue-800 text-xs gap-x-1 pr-2">
+                            <i class="uil uil-heart"></i>
+                            <h2>50</h2>
+                        </div>
+                    </div>
+                </div>
+               <div class="mt-2">
+                    <img class="rounded-sm h-40 w-36 ml-3" src="./img/4.jpg" alt="">
+               </div>
+
+               <div class="flex justify-between items-center px-4 py-3 gap-x-4">
+                    <div class="flex flex-col text-white">
+                        <h1 class="text-gray-300 text-xs capitalize">current</h1>
+                        <h2 class="text-xs font-bold">4.89 ETH</h2>
+                    </div>
+                    <div>
+                        <h1 class="text-gray-300 text-xs capitalize">ends in</h1>
+                        <h2 class="text-xs text-gray-300 font-bold">19hrs 42min</h2>
+                    </div>
+                </div>
+
+                <div class="flex justify-evenly gap-x-3 pt-2">
+                    <a href="#" class="bg-transparent border border-blue-800 px-2 pt-1 pb-2 rounded-sm text-white text-xs hover:bg-blue-800 transition duration-300 hover:text-white/70">Place a bid</a>
+                    <a href="#" class="bg-transparent border border-blue-800 px-3 pt-1 pb-2 rounded-sm text-white text-xs hover:bg-blue-800 transition duration-300 hover:text-white/70">View</a>
+                </div>
+            </div>
+
+            <div class="border border-slate-800 h-80 w-44 rounded-md">
+                <div class="flex py-2 pb-0">
+                    <img class="w-5 h-5 mt-1 ml-2" src="./img/people.png" alt="">
+                    <div class="flex justify-center gap-10 px-1">
+                        <div>
+                            <h1 class="text-white capitalize text-xs">visual art</h1>
+                            <h3 class="text-slate-600 text-xs font-semibold">by @wzard</h3>
+                        </div>
+                        <div class="flex text-blue-800 text-xs gap-x-1 pr-2">
+                            <i class="uil uil-heart"></i>
+                            <h2>60</h2>
+                        </div>
+                    </div>
+                </div>
+               <div class="mt-2">
+                    <img class="rounded-sm h-40 w-36 ml-3" src="../src/img/5.jpg" alt="">
+               </div>
+
+               <div class="flex justify-between items-center px-4 py-3 gap-x-4">
+                    <div class="flex flex-col text-white">
+                        <h1 class="text-gray-300 text-xs capitalize">current</h1>
+                        <h2 class="text-xs font-bold">4.89 ETH</h2>
+                    </div>
+                    <div>
+                        <h1 class="text-gray-300 text-xs capitalize">ends in</h1>
+                        <h2 class="text-xs text-gray-300 font-bold">19hrs 42min</h2>
+                    </div>
+                </div>
+
+                <div class="flex justify-evenly gap-x-3 pt-2">
+                    <a href="#" class="bg-transparent border border-blue-800 px-2 pt-1 pb-2 rounded-sm text-white text-xs hover:bg-blue-800 transition duration-300 hover:text-white/70">Place a bid</a>
+                    <a href="#" class="bg-transparent border border-blue-800 px-3 pt-1 pb-2 rounded-sm text-white text-xs hover:bg-blue-800 transition duration-300 hover:text-white/70">View</a>
+                </div>
+            </div>
+
+            <div class="border border-slate-800 h-80 w-44 rounded-md">
+                <div class="flex py-2 pb-0">
+                    <img class="w-5 h-5 mt-1 ml-2" src="./img/people.png" alt="">
+                    <div class="flex justify-center gap-10 px-1">
+                        <div>
+                            <h1 class="text-white capitalize text-xs">neon painting</h1>
+                            <h3 class="text-slate-600 text-xs font-semibold">by @wzard</h3>
+                        </div>
+                        <div class="flex text-blue-800 text-xs gap-x-1 pr-2">
+                            <i class="uil uil-heart"></i>
+                            <h2>70</h2>
+                        </div>
+                    </div>
+                </div>
+               <div class="mt-2">
+                    <img class="rounded-sm h-40 w-36 ml-3" src="./img/3.jpg" alt="">
+               </div>
+
+               <div class="flex justify-between items-center px-4 py-3 gap-x-4">
+                    <div class="flex flex-col text-white">
+                        <h1 class="text-gray-300 text-xs capitalize">current</h1>
+                        <h2 class="text-xs font-bold">4.89 ETH</h2>
+                    </div>
+                    <div>
+                        <h1 class="text-gray-300 text-xs capitalize">ends in</h1>
+                        <h2 class="text-xs text-gray-300 font-bold">19hrs 42min</h2>
+                    </div>
+                </div>
+
+                <div class="flex justify-evenly gap-x-3 pt-2">
+                    <a href="#" class="bg-transparent border border-blue-800 px-2 pt-1 pb-2 rounded-sm text-white text-xs hover:bg-blue-800 transition duration-300 hover:text-white/70">Place a bid</a>
+                    <a href="#" class="bg-transparent border border-blue-800 px-3 pt-1 pb-2 rounded-sm text-white text-xs hover:bg-blue-800 transition duration-300 hover:text-white/70">View</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
